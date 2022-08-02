@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <img class="menu-hamburger" src="./assets/hamburger.png" alt="Menu button">
+            <h3 class="product-name">flavo</h3>
+            <img class="cart" src="./assets/2.png" alt="cart">
+        </div>
+        <div class="box-product">
+            <img src="./assets/cosiness.png" alt="product">
+            <div class="box-price">
+                <h2>cosiness</h2>
+                <p>$15</p>
+            </div>
+        </div>
+        <div class="box-ingredients">
+            <h3>What's Inside</h3>
+            <p>Chili, oregano, safran, paprika</p>
+        </div>
+        <div class="box-information">
+            <h3>Why we love it</h3>
+            <p>This one will add a little savoury
+                flavour to any food and turn any meal
+                to a culinary masterpiece.
+            </p>
+        </div>
+        <div class="box-options">
+            <div class="option-1">
+                <input id="bag" type="radio" name="radio"/> <label for="bag">BAG (75g)</label>
+            </div>
+            <div class="option-2">
+                <input id="jar" type="radio" name="radio"/> <label for="jar">JAR (150g)</label>
+            </div>
+        </div>
+        <div class="box-count">
+            <button class="btn-sub">-</button>
+            <p class="amount">0</p>
+            <button class="btn-add">+</button>
+        </div>
+        <div class="button-add-cart">
+            <p>Add to cart</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
