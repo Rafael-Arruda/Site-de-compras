@@ -8,7 +8,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body { 
+    background-color: #96A755;
+}
+
 .container {
+    border: 8px solid #000;
+    border-radius: 20px;
     margin: 0 auto;
     width: 100%;
     max-width: 600px;
@@ -135,4 +141,11 @@
     color: #ddd;
     font-size: 1.2rem;
     font-weight: 100;
+}
+
+@media(max-width: 600px) {
+    .container {
+        border: none;
+        border-radius: 0;
+    }
 }
